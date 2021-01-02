@@ -5,10 +5,12 @@
   "repository": "git@github.com:zn3sky/demos.git",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "bootstrap": "4.5.3",
+    "glob": "^7.1.6",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
